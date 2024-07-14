@@ -14,3 +14,7 @@ python3 cosine.py
 ```
 
 I tested it against benchmark questions I paraphrased myself and it worked fine. I needed this for a dataset I generated with Nemotron.
+
+Note: If you're going to test it against another benchmark, reformat it to where the only felds are "question" and "answer"
+
+Also, it's made to test against ShareGPT datasets. So my benchmark is reformatted to question/answer jsonl and my dataset I'm testing is ShareGPT.
