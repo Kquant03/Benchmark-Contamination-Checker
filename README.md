@@ -19,4 +19,4 @@ Note: If you're going to test it against another benchmark, reformat it to where
 
 Also, it's made to test against ShareGPT datasets. So my benchmark is reformatted to question/answer jsonl and my dataset I'm testing is ShareGPT.
 
-Finally, I tested it on Runpod with an SXM A100 and it wasn't much faster than my 3060 even with 1k+ batch size.
+Finally, a 12GB 3060 can handle 2-4 processes while an SXM A100 80GB can handle about 24.
