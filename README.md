@@ -18,3 +18,5 @@ I tested it against benchmark questions I paraphrased myself and it worked fine.
 Note: If you're going to test it against another benchmark, reformat it to where the only felds are "question" and "answer"
 
 Also, it's made to test against ShareGPT datasets. So my benchmark is reformatted to question/answer jsonl and my dataset I'm testing is ShareGPT.
+
+Finally, I tested it on Runpod with an SXM A100 and it wasn't much faster than my 3060 even with 1k+ batch size.
