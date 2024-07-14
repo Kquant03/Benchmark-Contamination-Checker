@@ -1,5 +1,6 @@
 import json
 import torch
+import random
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import multiprocessing as mp
