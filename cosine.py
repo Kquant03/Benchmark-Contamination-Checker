@@ -69,7 +69,8 @@ if __name__ == '__main__':
     with open("/home/kquant/Desktop/detect-pretrain-code-contamination-master/src/arc_c_test_final.jsonl", "r") as file:
         benchmark_dataset = [json.loads(line) for line in file]
 
-    # Slice the benchmark dataset to use only 100 samples
+    # Randomly select 100 samples from the benchmark dataset
+    random.shuffle(benchmark_dataset)
     benchmark_dataset = benchmark_dataset[:100]
 
     print("Loading evaluated dataset...")
