@@ -39,7 +39,7 @@ def process_batch(batch_data):
                 cheating_examples.append({
                     "evaluated_example": eval_batch[j],
                     "benchmark_example": benchmark_ex,
-                    "similarity_score": similarity
+                    "similarity_score": float(similarity)
                 })
     
     return cheating_examples
